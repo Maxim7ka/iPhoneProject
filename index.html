@@ -5,14 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="iPhone, iphone 14, phone, айфон, айфон 14, купить айфон, айфон 14 про, iphone 14 pro">
+    <meta name="keywords"
+        content="iPhone, iphone 14, phone, айфон, айфон 14, купить айфон, айфон 14 про, iphone 14 pro">
     <meta name="description" content="Купить iPhone 14 Pro. Доставка бесплатно.">
     <meta name="robots" content="noindex nofollow">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/modalWindow.css">
     <title>IPhone 14 Pro</title>
 </head>
 
 <body>
+    <!-- Изменение стилей -->
+    <div class="change-back" id="changeBack">
+
+    </div>
+    <!-- Изменение стилей -->
+
+    <!-- Модальное окно -->
+    <div class="modal-window" id="modalWindow">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-header">
+                <!-- <h2>Выбери свой цвет</h2> -->
+                <div class="gray-heading">
+                    <h3>ВЫБЕРИ СВОЙ ЦВЕТ</h3>
+                </div>
+                
+                <div class="modal-close" id="modalClose">
+                    <img src="img/cross.svg" alt="close">
+                </div>
+            </div>
+            <div class="modal-main">
+                <!-- Контент модального окна -->
+                <div class="choose-color">
+                    <div class="phone-colors">
+                        <div class="color-card">
+                            <img src="img/silver.jpg" alt="silver">
+                            <p class="color-en">Silver</p>
+                            <p class="color-ru">Серебристый</p>
+                        </div>
+
+                        <div class="color-card">
+                            <img src="img/purple.jpg" alt="purple">
+                            <p class="color-en">Deep purple</p>
+                            <p class="color-ru">Темно фиолетовый</p>
+                        </div>
+
+                        <div class="color-card">
+                            <img src="img/gold.jpg" alt="gold">
+                            <p class="color-en">Gold</p>
+                            <p class="color-ru">Золотой</p>
+                        </div>
+
+                        <div class="color-card">
+                            <img src="img/black.jpg" alt="space-black">
+                            <p class="color-en">Space Black</p>
+                            <p class="color-ru">Космический черный</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно -->
+
     <header>
         <section class="header">
             <div class="wrapper">
@@ -171,6 +226,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- Скрипт модального окна -->
+    <script src="js/modalWindow.js"></script>
 </body>
 
 </html>

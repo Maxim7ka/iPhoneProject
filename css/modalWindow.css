@@ -1,0 +1,42 @@
+.modal-window {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid #000;
+    transition: .4s;
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 75%;
+    margin: 5% auto;
+    padding: 20px;
+    transition: .4s;
+    transform: translateX(0);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-close img {
+    width: 35px;
+    height: 35px;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.modal-close img:hover {
+    transform: rotate(180deg);
+}
+
+.modal-main {
+    margin-top: 50px;
+}
