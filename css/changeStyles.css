@@ -1,4 +1,4 @@
-.change-backg {
+.change-styles {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -8,16 +8,9 @@
     height: 38px;
     border: 1px solid #000;
     border-radius: 50%;
-    transition: .2s;
 }
 
-/* .changeBackg img {
-    width: 60px;
-    height: 60px;
-    transition: .9s;
-} */
-
-.change-backg:hover {
+.change-styles:hover {
     width: 42px;
     height: 42px;
     bottom: 28px;
