@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+.white {
+    background-color: #fff;
+}
+
 .phone-number {
     font-family: 'Inter';
     font-style: normal;
@@ -78,7 +82,7 @@ header {
 
 /* article */
 
-article {
+main {
     max-width: 100%;
 }
 
