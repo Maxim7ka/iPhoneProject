@@ -1,2 +1,2 @@
 # iPhoneProject
-First project
+First Web-developer course project
